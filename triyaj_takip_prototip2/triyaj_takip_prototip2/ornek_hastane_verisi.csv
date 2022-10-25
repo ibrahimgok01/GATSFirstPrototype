@@ -1,0 +1,30 @@
+"Sehir, HastaneID, Hastane, Latitude, Longitude, greenDensity, greenCapacity, yellowDensity, yellowCapacity"
+İzmir, 1, İzmir Alper Çizgenakat Çeşme Devlet Hastanesi,38.3174482,26.3249957,250,350,100,150
+İzmir, 2,İzmir Alsancak Nevvar Salih İşgören Devlet Hastanesi,38.4341664,27.1411949,250,350,100,150
+İzmir, 3,Aliağa Devlet Hastanesi,38.7873016,26.9733807,250,350,100,150
+İzmir, 4,Bayındır Devlet Hastanesi,38.2213902,27.647711,250,350,100,150
+İzmir, 5,Bornova Türkan Özilhan Devlet Hastanesi,38.4589402,27.248175,250,350,100,150
+İzmir, 6,Bozyaka Eğitim Ve Araştırma Hastanesi,38.398049,27.1229399,250,350,100,150
+İzmir, 7,Buca Kadın Doğum Ve Çocuk Hastalıkları Hastanesi,38.3760115,27.1789325,250,250,350,100,150
+İzmir, 8,Buca Seyfi Demirsoy Devlet Hastanesi,38.3801628,27.1635008,250,350,100,150
+İzmir, 9,S.B.Ü Dr. Behçet Uz Çocuk Hastalıkları Ve Cerrahisi Eğitim Ve Araştırma Hastanesi, 38.4278044, 27.1369242,250,350,100,150
+İzmir, 10,Bergama Necla-Mithat Öztüre Devlet Hastanesi,39.1172517,27.1778034,250,350,100,150
+İzmir, 11,Dikili Devlet Hastanesi,39.064983,26.8902481,250,350,100,150
+İzmir, 12,İzmir Eğitim Diş Hastanesi,38.4222757,27.1394682,250,350,100,150
+İzmir, 13,Foça Devlet Hastanesi,38.5498389,26.8006811,250,350,100,150
+İzmir, 14,Gaziemir Nevvar Salih İşgören Devlet Hastanesi,38.3113217,27.1307213,250,350,100,150
+İzmir, 15,Kemalpaşa Devlet Hastanesi,38.4362596,27.4076481,250,350,100,150
+İzmir, 16,Kiraz Devlet Hastanesi,38.2306741,28.2161394,250,350,100,150
+İzmir, 17,Torbalı Devlet Hastanesi,38.175596,27.3557616,250,350,100,150
+İzmir, 18,Menemen Devlet Hastanesi,38.607477,27.085661,250,350,100,150
+İzmir, 19,Nejat Hepkon Seferihisar Devlet Hastanesi,38.1973452,26.843638,250,350,100,150
+İzmir, 20,Selçuk Devlet Hastanesi,37.9475692,27.365777,250,350,100,150
+İzmir, 21,Tepecik Eğitim Ve Araştırma Hastanesi,38.4228307,27.1636836,250,350,100,150
+İzmir, 22,Tire Devlet Hastanesi,38.1008654,27.7196646,250,350,100,150
+İzmir, 23,Urla Devlet Hastanesi,38.3305592,26.7434017,250,350,100,150
+İzmir, 24,Bakırçay Üniversitesi Çiğli Eğitim ve Araştırma Hastanesi,38.498945,27.0465225,250,350,100,150
+İzmir, 25,Ödemiş Devlet Hastanesi,38.2305955,27.9784335,250,350,100,150
+
+
+Manisa,1, Merkez Efendi Devlet Hastanesi,38.614522,27.406054,28,40,21,20
+Manisa,2,Calal Bayar Üniversitesi Hafsa Sultan Hastanesi,38.61061,27.377764,28,45,21,25

@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="N3m-nE-s7d">
+    <device id="retina6_0" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Menu-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="menu" customModule="triyaj_takip_prototip2" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ygz-Ar-Psh">
+                                <rect key="frame" x="89" y="603" width="212" height="34"/>
+                                <fontDescription key="fontDescription" name="TimesNewRomanPS-ItalicMT" family="Times New Roman" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="il seçiniz" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="O0H-dr-3qP">
+                                <rect key="frame" x="89" y="519" width="212" height="34"/>
+                                <fontDescription key="fontDescription" name="TimesNewRomanPS-ItalicMT" family="Times New Roman" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GUi-JZ-vFe">
+                                <rect key="frame" x="123" y="699" width="144" height="32"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Hatane Ara">
+                                    <fontDescription key="titleFontDescription" name="TimesNewRomanPS-ItalicMT" family="Times New Roman" pointSize="16"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="hastaneAraTiklandi:" destination="BYZ-38-t0r" eventType="touchUpInside" id="SIe-8B-86e"/>
+                                </connections>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="gats_logo" translatesAutoresizingMaskIntoConstraints="NO" id="m5I-ie-4Fy">
+                                <rect key="frame" x="75" y="177" width="240" height="266"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="266" id="nER-Pz-ExT"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="GUi-JZ-vFe" secondAttribute="bottom" constant="79" id="4lC-IW-gxd"/>
+                            <constraint firstItem="m5I-ie-4Fy" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="89" id="5n6-el-2gb"/>
+                            <constraint firstItem="ygz-Ar-Psh" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="89" id="8Ao-i8-LzP"/>
+                            <constraint firstItem="GUi-JZ-vFe" firstAttribute="top" secondItem="ygz-Ar-Psh" secondAttribute="bottom" constant="62" id="QiC-RC-Ma8"/>
+                            <constraint firstItem="GUi-JZ-vFe" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="123" id="SgM-aM-50u"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="GUi-JZ-vFe" secondAttribute="trailing" constant="123" id="dT6-jw-MP7"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="O0H-dr-3qP" secondAttribute="trailing" constant="89" id="eRT-9s-eqd"/>
+                            <constraint firstItem="ygz-Ar-Psh" firstAttribute="top" secondItem="O0H-dr-3qP" secondAttribute="bottom" constant="50" id="fAq-Fb-9TV"/>
+                            <constraint firstItem="m5I-ie-4Fy" firstAttribute="centerX" secondItem="O0H-dr-3qP" secondAttribute="centerX" id="fc9-tu-cEf"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="ygz-Ar-Psh" secondAttribute="trailing" constant="89" id="tcp-IX-FgX"/>
+                            <constraint firstItem="O0H-dr-3qP" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="89" id="vmV-ED-wmk"/>
+                            <constraint firstItem="m5I-ie-4Fy" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="75" id="wxP-8x-xpl"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="mzW-0M-f3R"/>
+                    <connections>
+                        <outlet property="hastaneAra" destination="GUi-JZ-vFe" id="glr-FG-4aL"/>
+                        <outlet property="textField" destination="O0H-dr-3qP" id="tVD-n5-adk"/>
+                        <outlet property="textField2" destination="ygz-Ar-Psh" id="kPa-Dg-XeV"/>
+                        <segue destination="Rnm-4W-PhI" kind="show" identifier="tohospitalMapVC" id="Hxo-jX-bdB"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="930.76923076923072" y="73.222748815165872"/>
+        </scene>
+        <!--Hospital map-->
+        <scene sceneID="mTN-eR-CZ1">
+            <objects>
+                <viewController id="Rnm-4W-PhI" customClass="hospital_map" customModule="triyaj_takip_prototip2" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="mZ8-JE-fcW">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="ZAz-J6-TsW">
+                                <rect key="frame" x="0.0" y="145" width="390" height="717"/>
+                            </mapView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8Qx-a4-lVI">
+                                <rect key="frame" x="0.0" y="88" width="186" height="49"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="186" id="3Ii-H0-u0r"/>
+                                    <constraint firstAttribute="height" constant="49" id="5Dg-xK-GLw"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="TimesNewRomanPS-ItalicMT" family="Times New Roman" pointSize="16"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TkR-C7-WrE">
+                                <rect key="frame" x="204" y="88" width="186" height="49"/>
+                                <fontDescription key="fontDescription" name="TimesNewRomanPS-ItalicMT" family="Times New Roman" pointSize="16"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="ld8-4w-ZGd"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="TkR-C7-WrE" firstAttribute="trailing" secondItem="ZAz-J6-TsW" secondAttribute="trailing" id="MbY-RX-hoj"/>
+                            <constraint firstItem="8Qx-a4-lVI" firstAttribute="top" secondItem="ld8-4w-ZGd" secondAttribute="top" id="UTD-Bb-lch"/>
+                            <constraint firstItem="8Qx-a4-lVI" firstAttribute="leading" secondItem="ZAz-J6-TsW" secondAttribute="leading" id="frz-2V-X5c"/>
+                            <constraint firstItem="ZAz-J6-TsW" firstAttribute="top" secondItem="8Qx-a4-lVI" secondAttribute="bottom" constant="8" id="l4p-1I-Z6n"/>
+                            <constraint firstItem="ZAz-J6-TsW" firstAttribute="centerX" secondItem="mZ8-JE-fcW" secondAttribute="centerX" id="oba-t0-t38"/>
+                            <constraint firstItem="8Qx-a4-lVI" firstAttribute="baseline" secondItem="TkR-C7-WrE" secondAttribute="baseline" id="pkw-P4-q0b"/>
+                            <constraint firstItem="TkR-C7-WrE" firstAttribute="leading" secondItem="8Qx-a4-lVI" secondAttribute="trailing" constant="18" id="qKr-9e-Ilh"/>
+                            <constraint firstItem="8Qx-a4-lVI" firstAttribute="leading" secondItem="ld8-4w-ZGd" secondAttribute="leading" id="wZd-jc-MeI"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="ZAz-J6-TsW" secondAttribute="bottom" constant="-52" id="zBI-Yi-YFo"/>
+                            <constraint firstItem="8Qx-a4-lVI" firstAttribute="firstBaseline" secondItem="TkR-C7-WrE" secondAttribute="firstBaseline" id="zhJ-6d-9wZ"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="Ipb-1y-YVV"/>
+                    <connections>
+                        <outlet property="label" destination="8Qx-a4-lVI" id="8DJ-Kk-Nhl"/>
+                        <outlet property="label2" destination="TkR-C7-WrE" id="ApZ-Sh-3cU"/>
+                        <outlet property="mapView" destination="ZAz-J6-TsW" id="kvL-m0-Z2O"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lmS-TR-AX2" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1786.9565217391305" y="73.660714285714278"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="MZc-uA-i5p">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="N3m-nE-s7d" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="csr-FC-zIy">
+                        <rect key="frame" x="0.0" y="44" width="390" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="MNh-9I-Cos"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qyd-L0-8iR" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="21.739130434782609" y="73.660714285714278"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="gats_logo" width="500" height="500"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
